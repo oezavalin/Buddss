@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    background-color: #181818;
+}
+
+.no-cs-form {
+    display: none;
+}
+
+.cs-form {
+    position: absolute;
+    width: 335px;
+    height: 547px;
+    background-color: #ffffff;
+    color: #070707;
+    border-radius: 20px;
+    top: 79px;
+    left: 20px;
+
+}
+
+.cs-form fieldset {
+    border: none;
+    margin-left: 16px;
+}
+
+.cs-form fieldset label p {
+    height: 22px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.cs-form fieldset label p span {
+    color: #FF6C2D;
+}
+
+.cs-form fieldset label input {
+    margin-top: 4px;
+    width: 303px;
+    height: 40px;
+    border-radius: 14px;
+    border-color: #F1F1F1;
+    box-shadow: none;
+}
+
+.cs-form fieldset label input::placeholder {
+    width: 271px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 9px;
+    padding-left: 16px;
+}
+
+.cs-form .text {
+    width: 303px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 140%;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.cs-form .text a {
+    color: #954CED;
+}
+
+.cs-form .button-on-black {
+    width: 303px;
+    height: 57px;
+    background-color: #954CED;
+    border-radius: 16px;
+    border: none;
+    color: #ffffff;
+    margin-left: 16px;
+    margin-top: 20px;
+    font-family: "Outfit";
+    font-weight: bolder;
+}
+
+.cs-form .close-btn {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin-top: 8px;
+    margin-left: 293px;
+    background-color: #ffffff;
+    border: none;
+    z-index: 300;
+}
+
+body {
+    background-color: #181818;
+    width: 1440px;
+}
+
+.cookies {
+    position: absolute;
+    width: 1285px;
+    height: 117px;
+    margin-top: 105vh;
+    margin-left: 90px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border-color: #000000;
+    display: inline-block;
+    -webkit-animation: scroll-up 5s 1 linear;
+    -moz-animation: scroll-up 5s 1 linear;
+    animation: scroll-up 5s 1 linear;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    z-index: 20;
+}
+
+.no-cookies {
+    display: none;
+}
+
+.cookies p {
+    float: left;
+    width: 783px;
+    height: 56px;
+    margin-left: 30px;
+    margin-top: 30.5px;
+}
+
+.cookies .accept {
+    float: left;
+    width: 124px;
+    height: 57px;
+    background-color: #954CED;
+    border-radius: 16px;
+    border: none;
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.cookies .decline {
+    float: left;
+    width: 124px;
+    height: 57px;
+    border-radius: 16px;
+    border: 2px solid #954CED;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 30px;
+}
